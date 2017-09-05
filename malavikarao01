@@ -1,0 +1,13 @@
+a <- 1:12
+k<-matrix(a, 3, 4) #filling the vector into 3 rows and 4 columns
+
+plank <- 1:8
+dim(plank) <- c(2, 4) #shaping the matrix
+
+plank[2, 3] #matrix access--> second row, thrird column element
+
+plank[1, 4] <- 0 #assigning the value 0 to the particular element
+
+plank[2,] #retrieving the second row
+
+plank[, 2:4] #retrieving the second to fourth columns
